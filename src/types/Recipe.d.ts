@@ -1,4 +1,5 @@
 type RecipeCardPropsType = {
+    id: number;
     image: string;
     title: string;
     time: number;

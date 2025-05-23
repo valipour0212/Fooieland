@@ -1,6 +1,6 @@
 import Title from "@/components/UI/Title";
 import Description from "@/components/UI/Description";
-import {MoreRecipesData} from "@/app/Data/Recipes";
+import {MoreRecipesData} from "@/app/Data/RecipesData";
 import RecipeCard from "@/app/home/components/recipes/RecipeCard";
 import {JSX} from "react";
 
@@ -22,11 +22,7 @@ export default function MoreRecipes(): JSX.Element {
                     MoreRecipesData.map((recipe: RecipeDataType) => (
                         <RecipeCard
                             key={recipe.id}
-                            image={recipe.image}
-                            title={recipe.title}
-                            time={recipe.time}
-                            category={recipe.category}
-                            isLike={recipe.isLike}
+                            {...recipe}
                         />
                     ))
                 }

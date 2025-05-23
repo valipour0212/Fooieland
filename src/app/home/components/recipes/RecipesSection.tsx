@@ -1,7 +1,7 @@
 import RecipeCard from "./RecipeCard";
 import Title from "@/components/UI/Title";
 import Description from "@/components/UI/Description";
-import {Recipes} from "@/app/Data/Recipes";
+import {RecipesData} from "@/app/Data/RecipesData";
 import Image from "next/image";
 import React from "react";
 
@@ -16,7 +16,7 @@ export default function RecipesSection() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 ">
                 {
-                    Recipes.map((recipe: RecipeDataType, index: number) => (
+                    RecipesData.map((recipe: RecipeDataType, index: number) => (
                         <React.Fragment key={recipe.id}>
                             {index === 5 && (
                                 <Image
@@ -28,6 +28,7 @@ export default function RecipesSection() {
                                 />
                             )}
                             <RecipeCard
+                                id={recipe.id}
                                 image={recipe.image}
                                 title={recipe.title}
                                 time={recipe.time}

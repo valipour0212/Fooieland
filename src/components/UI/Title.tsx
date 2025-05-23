@@ -2,7 +2,7 @@ import React from 'react';
 
 type TitlePropsType = {
     text: string;
-    className?: string; // اضافه‌شده برای استایل ریسپانسیو
+    className?: string;
 }
 
 export default function Title({text, className = ""}: TitlePropsType) {
