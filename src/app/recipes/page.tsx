@@ -8,7 +8,7 @@ export default function Recipes() {
     return (
         <>
             <Header/>
-            <main className="grid grid-cols-4 gap-4">
+            <main className="grid grid-cols-4 gap-4 w-11/12 md:w-4/5 mx-auto">
                 {
                     RecipesData.slice(0, 16).map((recipe: RecipeDataType) =>
                         <RecipeCard key={recipe.id} {...recipe}/>

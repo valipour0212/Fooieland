@@ -44,7 +44,7 @@ export default function RecipeCard({id, image, title, time, category, isLike}: R
                     </div>
                 </div>
                 {/* Text */}
-                <div className="p-4 flex flex-col justify-center space-y-10">
+                <div className="p-4 flex flex-col justify-center text-left space-y-10">
                     <CardTitle text={title}/>
                     <div className="flex space-x-4">
                         <div className="flex space-x-2 sm:space-x-3 items-center">

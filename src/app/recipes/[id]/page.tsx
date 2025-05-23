@@ -3,7 +3,6 @@ import {useState} from "react";
 import {notFound} from "next/navigation";
 import {getRecipeById} from "@/lib/recipes";
 import Header from "@/components/UI/Header";
-import SubscribeCard from "@/components/UI/SubscribeCard";
 import Footer from "@/components/UI/Footer";
 import Title from "@/components/UI/Title";
 import {RecipesData} from "@/app/Data/RecipesData";
@@ -286,9 +285,6 @@ export default function RecipeDetailsPage({params}: RecipeDetailsPropsType) {
                     </div>
 
                 </div>
-
-                {/* Subscribe Card  */}
-                <SubscribeCard/>
 
                 {/* Recommendation recipe   */}
                 <div className="my-40 text-center">

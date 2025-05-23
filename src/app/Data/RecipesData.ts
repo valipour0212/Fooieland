@@ -195,3 +195,42 @@ export const MoreRecipesData: RecipeDataType[] = [
         isLike: true
     },
 ]
+
+export const TastyRecipes: TastyRecipesType[] = [
+    {
+        "id": 1,
+        "image": "/assets/images/recipes/img-02.png",
+        "title": "Creamy Mushroom Pasta",
+        "name": "Anna Thompson"
+    },
+    {
+        "id": 2,
+        "image": "/assets/images/recipes/img-02.png",
+        "title": "Avocado Toast with Eggs",
+        "name": "Michael Lee"
+    },
+    {
+        "id": 3,
+        "image": "/assets/images/recipes/img-02.png",
+        "title": "Spicy Thai Noodles",
+        "name": "Lina Nguyen"
+    },
+    {
+        "id": 4,
+        "image": "/assets/images/recipes/img-02.png",
+        "title": "Berry Smoothie Bowl",
+        "name": "Chris Evans"
+    },
+    {
+        "id": 5,
+        "image": "/assets/images/recipes/img-02.png",
+        "title": "Grilled Chicken Salad",
+        "name": "Emily Watson"
+    },
+    {
+        "id": 6,
+        "image": "/assets/images/recipes/img-02.png",
+        "title": "Chocolate Lava Cake",
+        "name": "James Brown"
+    }
+]

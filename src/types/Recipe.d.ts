@@ -15,3 +15,10 @@ type RecipeDataType = {
     category: string;
     isLike: boolean;
 };
+
+type TastyRecipesType = {
+    id: number;
+    image: string;
+    title: string;
+    name: string;
+}

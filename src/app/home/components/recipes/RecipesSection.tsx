@@ -16,7 +16,7 @@ export default function RecipesSection() {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 ">
                 {
-                    RecipesData.map((recipe: RecipeDataType, index: number) => (
+                    RecipesData.slice(0, 8).map((recipe: RecipeDataType, index: number) => (
                         <React.Fragment key={recipe.id}>
                             {index === 5 && (
                                 <Image
