@@ -11,7 +11,7 @@ export default function BlackButton({text, icon, width}: ButtonPropsType) {
     return (
         <button
             style={{width: width ? `${width}px` : '100%'}}
-            className="h-[50px] sm:h-[56px] md:h-[60px] bg-black font-semibold text-sm sm:text-base md:text-lg text-white flex justify-center items-center gap-2 rounded-2xl px-4 max-w-full"
+            className="h-[50px] sm:h-[56px] md:h-[60px] bg-black font-semibold text-sm sm:text-base md:text-lg text-white flex justify-center items-center gap-2 rounded-2xl px-2"
         >
             {text}
             {icon &&
@@ -20,7 +20,6 @@ export default function BlackButton({text, icon, width}: ButtonPropsType) {
                     alt={icon}
                     width={24}
                     height={24}
-                    className="p-0"
                 />
             }
         </button>

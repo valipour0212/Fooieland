@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Foodieland — Recipe & Blog Website 🍳
 
-## Getting Started
+A fully responsive food blog and recipe sharing platform built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+## ✨ Features
+
+- 🏠 **Home Page** — Features hero, categories, recipes, Instagram feed, and newsletter subscription.
+- 🍽️ **Recipes Page** — Grid of recipe cards with filters and like functionality.
+- 📄 **Recipe Details Page** — Detailed view with ingredients, nutrition facts, and similar recipes.
+- 📰 **Blog Page** — List of blog articles with author info and sidebar recommendations.
+- ✍️ **Blog Post Details** — Full blog post view with rich content and recipe suggestions.
+- 📬 **Contact Page** — Contact form with input, select, and textarea components.
+- 📸 **Instagram Section** — Mimics Instagram cards with profile, image, actions, and like counts.
+- 🎨 **UI Components** — Modular and reusable UI like buttons, inputs, titles, and description components.
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/) — App Router architecture.
+- [React](https://reactjs.org/) — Component-based UI.
+- [TypeScript](https://www.typescriptlang.org/) — Type-safe components and data models.
+- [Tailwind CSS](https://tailwindcss.com/) — Utility-first styling.
+- [Lucide React](https://lucide.dev/) — Icon set for responsive design.
+
+## 📁 Folder Structure
+
+
+
+## 📦 Installation
 
 ```bash
+# Clone the project
+git clone https://github.com/yourusername/foodieland.git
+
+# Navigate to the project folder
+cd foodieland
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+Open http://localhost:3000 in your browser.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📷 Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Here’s a preview of the website in action:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Foodieland Preview](public/assets/gifs/main.gif)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔧 Components Summary
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Header & Footer** — Navigation links and social media icons
+- **RecipeCard** — Displays recipe image, title, cooking time, category, and like button
+- **InstagramCard** — Instagram-style card UI for displaying featured posts
+- **Blog Components**
+  - Blog List
+  - Blog Post Card
+  - Blog Post Detail
+- **Contact Form** — Includes input fields, select dropdown, textarea, and submit button
+- **SubscribeCard** — Newsletter email subscription section
+- **CategoriesSection** — Displays clickable recipe categories
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
